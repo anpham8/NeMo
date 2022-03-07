@@ -2,7 +2,7 @@ name: &name "ClusterDiarizer"
 
 num_workers: 4
 sample_rate: 16000
-batch_size: 64
+batch_size: 32
 
 diarizer:
   oracle_num_speakers: null # oracle number of speakers or pass null if not known. [int or path to file containing uniq-id with num of speakers of that session]
